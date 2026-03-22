@@ -4,16 +4,25 @@
 
 SitLess is an AIoT system that detects prolonged sitting using an ESP32 microcontroller, ultrasonic sensor, and a trained Random Forest classifier. When sitting is detected for too long, alerts escalate — from a buzzer beep (30s) to a physical robotic arm tap (60s). A Streamlit dashboard provides real-time monitoring and manual controls.
 
-> Built as a second-year individual project for PDE2226 Systems Integration & Machine Learning — BSc Computer Systems Engineering, Middlesex University Dubai.
+> Built as a second-year individual project for PDE2226 Systems Integration & Machine Learning — BEng (Honours) Computer Systems Engineering, Middlesex University Dubai.
 
 ---
 
-## Demo
+<p align="center">
+  <img src="docs/sitlessgif2.gif" alt="SitLess Demo" width="600">
+</p>
 
-<!-- Replace these with your actual images/GIFs — see instructions below -->
-<!-- ![Dashboard Screenshot](docs/dashboard.png) -->
-<!-- ![Hardware Setup](docs/hardware.png) -->
-<!-- ![Arm Tap Demo](docs/demo.gif) -->
+<p align="center">
+  <img src="docs/sitless%20full%20setup%20enclosure%20closed.jpeg" alt="Full Setup" width="500">
+</p>
+
+<p align="center">
+  <img src="docs/sitless%20full%20setup%20enclosure%20open.jpeg" alt="Inside View" width="500">
+</p>
+
+<p align="center">
+  <img src="docs/enclousre%20full%20setup%20open%20top%20down.jpeg" alt="Enclosure Top-Down" width="500">
+</p>
 
 ---
 
@@ -68,7 +77,7 @@ The top features (rate of change and standard deviation) capture **movement vari
 | 5V 3A DC supply | Power |
 | 3D-printed PLA enclosure | Housing (FreeCAD files included) |
 
-**Total approximate hardware cost: ~200 AED (~$55 USD)**
+**Total hardware cost: approximately 200 AED (~$55 USD)**
 
 ---
 
@@ -163,7 +172,7 @@ The `FreeCAD files/` folder contains all the CAD models for both the arm and the
 
 - Multi-user data collection for better generalisation
 - Bluetooth/Wi-Fi to replace USB serial
-- Inverse kinematics for precise tap motions
+- Inverse kinematics to replace the current predefined angle movements with dynamic positioning
 - Historical data logging and wellness trend tracking
 - Additional sensors (PIR, second ultrasonic) for better accuracy
 - On-device inference for privacy
@@ -188,5 +197,5 @@ This project was developed for academic purposes. Feel free to use it as referen
 
 ## Author
 
-**Saif Ali Syed** — BEng Honours Computer Systems Engineering, Middlesex University Dubai  
+**Saif Ali Syed** — BEng (Honours) Computer Systems Engineering, Middlesex University Dubai  
 [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN) <!-- Replace with your actual LinkedIn URL -->
