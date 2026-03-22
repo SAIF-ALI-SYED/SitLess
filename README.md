@@ -198,4 +198,4 @@ This project was developed for academic purposes. Feel free to use it as referen
 ## Author
 
 **Saif Ali Syed** — BEng (Honours) Computer Systems Engineering, Middlesex University Dubai  
-[LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN) <!-- Replace with your actual LinkedIn URL -->
+[LinkedIn](https://www.linkedin.com/in/saif-ali-syed-a87aa534a/) <!-- Replace with your actual LinkedIn URL -->
