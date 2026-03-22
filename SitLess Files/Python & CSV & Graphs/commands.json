@@ -1,0 +1,8 @@
+{
+  "manual_beep": false,
+  "manual_tap": false,
+  "manual_rest": false,
+  "mute": false,
+  "tap_enabled": true,
+  "system_enabled": true
+}
