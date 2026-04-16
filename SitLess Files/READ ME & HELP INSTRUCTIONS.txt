@@ -1,0 +1,38 @@
+# SitLess
+### AI-Driven Sedentary Monitoring System with a 3-DOF Robotic Arm
+
+An AIoT system that detects prolonged sitting using an ESP32 ultrasonic 
+sensor and a trained Random Forest classifier. When sitting is detected 
+for too long, alerts escalate from a buzzer beep (30s) to a physical 
+robotic arm tap (60s). A Streamlit dashboard provides real-time monitoring 
+and manual controls.
+
+## Folder Structure
+| Folder/File | Description |
+|---|---|
+| `Sitless_Final_Arduino_Code.ino` | ESP32 firmware (Arduino IDE) |
+| `Python & CSV & Graphs/` | Jupyter notebooks, datasets, output charts |
+| `FreeCAD files/` | CAD files for enclosure and robotic arm |
+
+## How to Run
+1. Flash `Sitless_Final_Arduino_Code.ino` to the ESP32 via Arduino IDE
+2. Open Jupyter and navigate to `Python & CSV & Graphs/`
+3. Run `live_prediction.ipynb` to start the ML backend (ESP32 on COM4)
+4. In a separate terminal: `streamlit run dashboard.py`
+
+## Install Dependencies
+pip install pyserial pandas numpy scikit-learn joblib streamlit
+
+## Hardware
+- ESP-32D microcontroller
+- HC-SR04 ultrasonic distance sensor
+- PCA9685 16-channel PWM servo driver
+- 3x MG996R servo motors (base, shoulder, elbow)
+- Piezo buzzer
+- 5V 3A DC power supply
+- 3D-printed PLA enclosure (FreeCAD files included)
+
+## ML Results
+- Model: Random Forest (100 estimators)
+- Test Accuracy: 85.1%
+- Top features: rate of change, standard deviation

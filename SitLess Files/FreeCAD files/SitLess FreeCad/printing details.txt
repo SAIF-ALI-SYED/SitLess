@@ -1,0 +1,8 @@
+1st arm & 2nd arm v2 with mgg96r case attached to both of them - 3h51m (90.47g total, 83.06g model)
+skeleton of turntable bearing & turntable bearing with bearings & case attached piece - 1h41m (51.72g)
+base and turntable attached - 3h55m (98.15g total, 87.84g model)
+
+total filament = 240.34g
+total model filament = 222.62g
+
+total time = 567m or 9.45h
