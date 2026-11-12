@@ -13,6 +13,16 @@ SitLess is an AIoT system that detects prolonged sitting using an ESP32 microcon
 </p>
 
 <p align="center">
+  <img src="docs/arm-isometric.png" alt="3-DOF Robotic Arm - Isometric View" width="30%">
+  &nbsp;&nbsp;
+  <img src="docs/arm-side.png" alt="3-DOF Robotic Arm - Side View" width="30%">
+  &nbsp;&nbsp;
+  <img src="docs/arm-bottom.png" alt="3-DOF Robotic Arm - Bottom View" width="30%">
+</p>
+
+<p align="center"><em>FreeCAD render of the 3-DOF robotic arm from different views (isometric, side, bottom)</em></p>
+
+<p align="center">
   <img src="docs/sitless%20full%20setup%20enclosure%20closed.jpeg" alt="Full Setup" width="30%">
   &nbsp;&nbsp;
   <img src="docs/sitless%20full%20setup%20enclosure%20open.jpeg" alt="Inside View" width="30%">
