@@ -9,7 +9,7 @@ SitLess is an AIoT system that detects prolonged sitting using an ESP32 microcon
 ---
 
 <p align="center">
-  <img src="docs/sitlessgif2.gif" alt="SitLess Demo" width="600">
+<img src="docs/sitlessgif2.gif" alt="SitLess Demo" width="350">
 </p>
 
 <p align="center">
